@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You, My Kanjad 💖</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        body {
+            background: #f5f5dc;
+            color: #5d5c61;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            padding: 50px;
+            position: relative;
+        }
+        h1 {
+            font-size: 2.2em;
+            text-shadow: 2px 2px 0px #a8a7a7;
+        }
+        .song-list {
+            background: #dcdcdc;
+            padding: 15px;
+            display: inline-block;
+            border-radius: 15px;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .song-list a {
+            display: block;
+            margin: 8px 0;
+            color: #3a3a3a;
+            font-size: 1em;
+            text-decoration: none;
+        }
+        .song-list a:hover {
+            color: #2c2c2c;
+        }
+        .ribbon {
+            width: 60px;
+            height: 60px;
+            background: pink;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .ribbon::before, .ribbon::after {
+            content: '';
+            position: absolute;
+            width: 10px;
+            height: 30px;
+            background: pink;
+        }
+        .ribbon::before {
+            transform: rotate(-45deg);
+            top: 50%;
+            left: -5px;
+        }
+        .ribbon::after {
+            transform: rotate(45deg);
+            top: 50%;
+            right: -5px;
+        }
+        .ribbon:nth-child(1) { top: 10px; left: 20px; }
+        .ribbon:nth-child(2) { top: 50px; right: 30px; }
+        .ribbon:nth-child(3) { bottom: 40px; left: 50px; }
+        .ribbon:nth-child(4) { bottom: 20px; right: 70px; }
+    </style>
+</head>
+<body>
+    <div class="ribbon">🎀</div>
+    <div class="ribbon">🎀</div>
+    <div class="ribbon">🎀</div>
+    <div class="ribbon">🎀</div>
+    <h1>I know you're not feeling goooood </h1>
+    <h2>But here are some songs dedicated to you, my kanjad aadmi😗❤️🎶</h2>
+    <div class="song-list">
+        <a href="https://open.spotify.com/track/2plbrEY59IikOBgBGLjaoe?si=e2a2be03ab694013" target="_blank">🎵 Die with a Smile</a>
+        <a href="https://open.spotify.com/track/44AyOl4qVkzS48vBsbNXaC?si=c7594dfb96804f80" target="_blank">🎵 Can't Help Falling in Love</a>
+        <a href="https://open.spotify.com/track/7uNnlVit5qDvfOje0pqICF?si=29f96f632a664cc1" target="_blank">🎵 Tum Ho</a>
+        <a href="https://open.spotify.com/track/1Er6TEtbyuW1b9QtBVkggD?si=266e24f631554bea" target="_blank">🎵 Jee Ni Lagda</a>
+        <a href="https://open.spotify.com/track/3V3QbgrOZKtFv5MXzAAdZr?si=48abe69aa8094511" target="_blank">🎵 Locha-e-ulfat</a>
+        <a href="https://open.spotify.com/track/47isJpIIO8m7BJEhiFhnaf?si=80f2b63dbf784381" target="_blank">🎵 Double take</a>
+    </div>
+</body>
+</html>
